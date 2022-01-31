@@ -1,0 +1,10 @@
+<div>
+    <div>
+        <div style="display: block">
+            <canvas baseChart [data]="barChartData" [options]="barChartOptions" [type]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
+        </canvas>
+        </div>
+        <div class="d-grid gap-2">
+            <button mat-button mat-raised-button color="primary" (click)="randomize()" class="btn btn-success">Update</button>
+        </div>
+    </div>

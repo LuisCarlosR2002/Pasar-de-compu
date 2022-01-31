@@ -1,0 +1,13 @@
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide text-white text-center" *ngFor="let actor of Cast">
+            <img src="https://image.tmdb.org/t/p/original{{actor.profile_path}}" class="img-thumbnail" alt=""> {{actor.name}}
+        </div>
+
+    </div>
+
+
+
+</div>
