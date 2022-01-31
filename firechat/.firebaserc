@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "firechat-15ccd": {
+      "hosting": {
+        "firechat": [
+          "firechat-15ccd"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "firechat-15ccd"
+  }
+}
